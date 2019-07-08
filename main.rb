@@ -8,5 +8,11 @@ require './filters'
 ## Your test code can go here
 
 # binding.pry
+# pp experienced?(@candidates)
+grabId = find(1)
 
-pp @candidates
+# pp experienced?(grabId)
+
+# pp qualified_candidates(@candidates)
+
+pp ordered_by_qualifications(@candidates)
